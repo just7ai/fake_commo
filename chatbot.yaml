@@ -1,0 +1,11 @@
+name: zb-module
+
+entryPoint:
+  - main.sc
+
+tests:
+    exclude:
+        - '*.xml'
+messages:
+  onError:
+    defaultMessage: Что-то пошло не так
